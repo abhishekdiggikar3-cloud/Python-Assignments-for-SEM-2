@@ -11,3 +11,6 @@ print("Values:", student.values())
 print("Items:", student.items())
 print("Is 'name' present?", "name" in student)
 print("Length:", len(student))
+
+git reset --hard HEAD~1
+git push origin main --force
